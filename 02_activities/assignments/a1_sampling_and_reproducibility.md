@@ -13,7 +13,20 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 # Author: YOUR NAME
 
 ```
-Please write your explanation here...
+Stages at which sampling occur in the model:
+1-random sampling when infecting a random subset of people (using np.random.choice)
+2-random sampling again for the primary contact tracing, when deciding which infected people get traced (using np.random.rand)
+3-conditional sampling for the secondary contact tracing, when identifying those previously traced that were infected and attended an event, that will be traced again
+
+sample size = 1000
+sample frame = people who attended weddings or brunch
+population = everyone in the community
+
+The graphs obtained by whitby_covid_tracing.py script are not the same as in the blog post. The code provided is not reproducing the graphs from the original post. The model assumptions on the blog post model are different than the ones in the code (one of 2 weddings/one of 80 brunches VS one wedding and one brunch)
+
+After modifying simulations to 100 and running the script multiple times, the results are not reproducible within each iteration. This could be because each time the model is run, it is sampling new "100" cases, instead of the same "100". This causes the graphed results to change. 
+
+To make it reproducible we can add a random seed. This ensures that we get the same sequence of random "100" simulations every time we run the script. This will then produce the same graph every time it is run.
 
 ```
 
