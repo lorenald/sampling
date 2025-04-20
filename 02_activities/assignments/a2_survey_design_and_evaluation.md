@@ -40,30 +40,32 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to obtain information on employee satisfaction from entry- and lower-level positions accross the tech company's departments. Participants will be asked about their experience in their current position.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+* Target population: entry- and lower-level employees from tech company departments.
+* Sampling frame: current entry- and lower-level employees from different departments.
+* Sampling units: current employees who hold entry- and lower-level positions, who have been in the position for more than 6 months, randomly selected from each department, and responded to the survey.
+* Overall sampling strategy: Stratified sampling will be applied, where each department will be considered a strata. Randomly selected individuals will receive an invitation to participate which will include an explanation of the survey purpose, describing this is anonymus and will not include identification. Surveys will be distributed by sharing a link to an anonymus form. Employees will have three weeks to answer the survey. A reminder will be send at the mid-way point.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+This survey is intended to learn about your experience in your current position and to understand how we can better provide a work environment that is supportive of your career goals. 
+1. Please select your department: [Multiple choice answer with department names]
+Please select the level of agreement you have to each of the following statements:
+[Possible answers: Strongly Agree / Agree / Neutral / Disagree / Strongly Disagree]
+2. I have the resources I need to perform my job 
+3. I have support when having a difficulty
+4. I see clear options for growth within the company
+5. I know what the expectations of my job are
+6. My job is valuable
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +73,38 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: two-stage stratified sampling with probability sampling, using rejective sampling
+
+2. Sample size: 25,000 was expected. An initial selection of approximatively 50,000 units was used, from which about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada.
+
+3. Target population: all persons 15 years of age and older living in the ten provinces of Canada, excluding those full-time residents of institutions for more than 6 momnths
+
+4. Sampling frame: randomly selected household member aged 15 or older, selected from groups of telephone numbers associated with the same address. This was derived from a combination of landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling.
+
+5. Survey mode(s): questionnaire suministered electronically or via telephone assistance
+
+6. Timeline: 2018-09-04 to 2018-12-28, 3 months and 24 days
+
+7. Response rate: 41.9%
+
+8. Weights: estimation weights: each person selected in the sample represents (in addition to themselves) several other persons not in the sample, bootstrap weights: to estimate variance based on design, estimates based on the survey data are also adjusted (by weighting) so that they are representative of the target population with regard to certain characteristics (each month we have independent estimates for various age-sex groups by province). Weights were also adjusted so that the weighted income distribution of GVP matched the 2017 CIS distribution by province.
+
+9. Data processing: validation measures: analysis of changes over time, verification of estimates through cross-tabulations, confrontation with other similar sources of data. 
+
+10. Cleaning, imputation, etc: imputation using donor records selected through a score function
+
+11. Sources of error: 
+- As the data are based on a sample of persons, they are subject to sampling error. That is, estimates based on a sample will vary from sample to sample, and typically they will be different from the results that would have been obtained from a complete census. 
+- Coverage errors: when there are differences between the target population and the surveyed population
+- Non-response errors: questions with no response
+- Response errors: mistakes made at the moment of answering a question
+- Processing errors: data entry, data management, data cleaning
+
+12. Limitations, known biases, etc: Individuals without telephone numbers and without access to housing were excluded from sampling. People who do not speak either English or French could not take the survey. Participants who did not allow linkage of data and got imputation might be part of vulnerable groups. The income variable showed high non-response rates and those who reported are usually rough estimates. Rejective sampling may cause bias, as volunteers could be from higher income settings. Long vs short interview differences. Only one individual per household selected (communal living, multigenerational living, student housing, etc).
+
+13. Link to documentation and any additional sources used:
+https://www150.statcan.gc.ca/n1/en/catalogue/45250011
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
